@@ -5,7 +5,7 @@ if status --is-login
   # On OS-X, /etc/paths and /etc/paths.d/* are loaded by default. The fish
   # shell does not do this. Here we call custom functions that load the
   # system default and prepend user paths.
-  init_osx_path /usr/local/bin
+  init_osx_path /usr/local/Cellar/ccache/3.1.9/libexec /usr/local/bin
 end
 
 
